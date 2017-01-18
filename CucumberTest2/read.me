@@ -1,0 +1,12 @@
+A setup
+need to set up JRE, JAVA_HOME, maven (set maven_home path), Eclipse Integration plugin and Eclipse Plugin (separate things)
+
+Set up project
+new maven project, edit pom.xml (to include dependencies cucumber-java, cucumber-unit, junit, selenium)
+add to project as external jar junit, TestNG
+
+create XXX.feature file (define Given / When / Then)
+create xxx.java class file (actual java / Selenium codes for Given / When / Then)
+create junit class (as CucumberRunner.java) - edit to include multiple features (via tags) if necessary
+
+report is in workspace - not shown in Eclipse
