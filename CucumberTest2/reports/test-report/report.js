@@ -39,21 +39,21 @@ formatter.match({
   "location": "musiciansManager.mmGiven()"
 });
 formatter.result({
-  "duration": 43219450671,
+  "duration": 114833989380,
   "status": "passed"
 });
 formatter.match({
   "location": "musiciansManager.mmWhen()"
 });
 formatter.result({
-  "duration": 3434593478,
+  "duration": 5243298922,
   "status": "passed"
 });
 formatter.match({
   "location": "musiciansManager.mmThen()"
 });
 formatter.result({
-  "duration": 852495652,
+  "duration": 580098889,
   "status": "passed"
 });
 formatter.uri('sample.feature');
@@ -97,21 +97,21 @@ formatter.match({
   "location": "stepDefinition.givenStatment()"
 });
 formatter.result({
-  "duration": 6153224,
+  "duration": 11811273,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.whenStatement()"
 });
 formatter.result({
-  "duration": 109814,
+  "duration": 134532,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.thenStatment()"
 });
 formatter.result({
-  "duration": 101305,
+  "duration": 96441,
   "status": "passed"
 });
 });
