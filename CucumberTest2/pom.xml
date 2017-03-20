@@ -9,7 +9,6 @@
                                 <goal>integration-test</goal>
                             </goals>
                         </execution>
-                    </executions>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
   	<dependency>
