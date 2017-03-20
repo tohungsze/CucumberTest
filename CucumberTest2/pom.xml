@@ -2,6 +2,20 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>CucumberTest2</groupId>
   <artifactId>CucumberTest2</artifactId>
+  <configuration>
+                        <parallel>none</parallel>
+                        <threadCount>1</threadCount>
+                        <disableXmlReport>true</disableXmlReport>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>Runnerclass</id>
+                            <phase>integration-test</phase>
+                            <goals>
+                                <goal>integration-test</goal>
+                            </goals>
+                        </execution>
+                    </executions>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
   	<dependency>
