@@ -2,9 +2,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>CucumberTest2</groupId>
   <artifactId>CucumberTest2</artifactId>
-                            <goals>
-                                <goal>integration-test</goal>
-                            </goals>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
   	<dependency>
@@ -38,4 +35,31 @@
   		<scope>test</scope>
   	</dependency>
   </dependencies>
+  <profiles>
+    <profile>
+        <id>integration-tests</id>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-failsafe-plugin</artifactId>
+                    <configuration>
+                        <parallel>none</parallel>
+                        <threadCount>1</threadCount>
+                        <disableXmlReport>true</disableXmlReport>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>Runnerclass</id>
+                            <phase>integration-test</phase>
+                            <goals>
+                                <goal>integration-test</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+</profiles>
 </project>
