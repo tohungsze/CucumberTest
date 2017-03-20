@@ -50,7 +50,7 @@
                     </configuration>
                     <executions>
                         <execution>
-                            <id>java/CucumberRunner</id>
+                            <id>test/java/CucumberRunner</id>
                             <phase>integration-test</phase>
                             <goals>
                                 <goal>integration-test</goal>
