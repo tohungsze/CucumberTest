@@ -50,7 +50,7 @@
                     </configuration>
                     <executions>
                         <execution>
-                            <id>Runnerclass</id>
+                            <id>CucumberRunner</id>
                             <phase>integration-test</phase>
                             <goals>
                                 <goal>integration-test</goal>
